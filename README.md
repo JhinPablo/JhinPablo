@@ -1,5 +1,6 @@
-### ✨ Hi there im Juan Pablo Granados Coral ✨
-
+### ✨ Hi there im Juan Pablo Granados Coral ✨ 
+### I´m studying software development at parquesoft :D
+### Englsih/Spanish
 <!--
 **JhinPablo/JhinPablo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
