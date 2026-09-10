@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  <strong>Ingeniero de Datos e Inteligencia Artificial</strong><br>
+  <strong>Juan Pablo Granados Coral</strong><br>
+  Ingeniero de Datos e Inteligencia Artificial<br>
   Python · SQL · Docker · AWS · Databricks · RAG
 </p>
 
