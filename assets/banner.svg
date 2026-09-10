@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Taller nocturno &#8212; Juan Pablo Granados Coral</title>
+  <desc id="desc">Cabecera tipo consola de taller nocturno. Monograma JP, constelacion de temas (salud, vision, RAG, ops, stack) y nombre. Estudiante de desarrollo de software en ParqueSoft. Espanol e ingles.</desc>
+
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0E14"/>
+      <stop offset="52%" stop-color="#0E141C"/>
+      <stop offset="100%" stop-color="#10180F"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="16%" cy="0%" r="58%">
+      <stop offset="0%" stop-color="#D4A574" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#D4A574" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#D4A574" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="phosphor" cx="88%" cy="78%" r="48%">
+      <stop offset="0%" stop-color="#7EE0C3" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7EE0C3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3D09A"/>
+      <stop offset="100%" stop-color="#C4894A"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8A96A8" stroke-width="0.5" opacity="0.16"/>
+    </pattern>
+    <pattern id="scan" width="1200" height="5" patternUnits="userSpaceOnUse">
+      <rect width="1200" height="1.2" fill="#7EE0C3" opacity="0.05"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="10" y="10" width="1180" height="400" rx="22"/>
+    </clipPath>
+    <style>
+      .cursor { animation: blink 1.15s steps(1, end) infinite; }
+      .scanbar { animation: sweep 8s linear infinite; }
+      .node { animation: pulse 3.8s ease-in-out infinite; }
+      .node2 { animation: pulse 3.8s ease-in-out infinite 0.7s; }
+      .node3 { animation: pulse 3.8s ease-in-out infinite 1.4s; }
+      .node4 { animation: pulse 3.8s ease-in-out infinite 2.1s; }
+      .node5 { animation: pulse 3.8s ease-in-out infinite 2.8s; }
+      .led { animation: led 2.2s ease-in-out infinite; }
+      @keyframes blink { 0%, 46% { opacity: 1; } 47%, 100% { opacity: 0; } }
+      @keyframes sweep { 0% { transform: translateY(-420px); } 100% { transform: translateY(420px); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      @keyframes led { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .cursor, .scanbar, .node, .node2, .node3, .node4, .node5, .led {
+          animation: none !important;
+          opacity: 1 !important;
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" fill="#07090D"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#ink)"/>
+    <rect width="1200" height="420" fill="url(#lamp)"/>
+    <rect width="1200" height="420" fill="url(#phosphor)"/>
+    <rect width="1200" height="420" fill="url(#grid)"/>
+    <rect width="1200" height="420" fill="url(#scan)"/>
+    <rect class="scanbar" x="10" width="1180" height="56" fill="#7EE0C3" opacity="0.04"/>
+  </g>
+
+  <rect x="10" y="10" width="1180" height="400" rx="22" fill="none" stroke="#2A3544" stroke-width="1.6"/>
+
+  <rect x="10" y="10" width="1180" height="44" rx="22" fill="#0B1018"/>
+  <rect x="10" y="32" width="1180" height="22" fill="#0B1018"/>
+  <line x1="10" y1="54" x2="1190" y2="54" stroke="#2A3544" stroke-width="1.2"/>
+  <circle cx="42" cy="32" r="7" fill="#E07A5F"/>
+  <circle cx="66" cy="32" r="7" fill="#F0C27B"/>
+  <circle class="led" cx="90" cy="32" r="7" fill="#7EE0C3"/>
+  <text x="118" y="38" fill="#D4A574" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="3">TALLER NOCTURNO</text>
+  <text x="600" y="38" text-anchor="middle" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2">NODE // JHINPABLO</text>
+  <text x="1168" y="38" text-anchor="end" fill="#7EE0C3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2">ES &#183; EN</text>
+
+  <g transform="translate(52,84)">
+    <rect x="0" y="0" width="220" height="250" rx="14" fill="#121821" stroke="#3A2A1C" stroke-width="1.4"/>
+    <rect x="12" y="12" width="196" height="226" rx="8" fill="none" stroke="#D4A574" stroke-opacity="0.4" stroke-dasharray="4 6"/>
+    <g fill="url(#copper)">
+      <rect x="28" y="36" width="72" height="20" rx="3"/>
+      <rect x="72" y="36" width="20" height="122" rx="3"/>
+      <rect x="28" y="138" width="20" height="40" rx="3"/>
+      <rect x="28" y="158" width="64" height="20" rx="3"/>
+      <rect x="118" y="36" width="20" height="142" rx="3"/>
+      <rect x="118" y="36" width="68" height="20" rx="3"/>
+      <rect x="166" y="36" width="20" height="70" rx="3"/>
+      <rect x="118" y="86" width="68" height="20" rx="3"/>
+    </g>
+    <text x="110" y="214" text-anchor="middle" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2">STAMP / JP</text>
+  </g>
+
+  <g transform="translate(300,86)" filter="url(#glow)">
+    <text x="0" y="22" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2.4">MAPA DE SENAL</text>
+    <path d="M80 86 L230 58 L380 110 L250 188 L100 172 Z" fill="none" stroke="#7EE0C3" stroke-opacity="0.4" stroke-width="1.8"/>
+    <path d="M230 58 L250 188 M80 86 L380 110" fill="none" stroke="#D4A574" stroke-opacity="0.32" stroke-width="1.1"/>
+    <g class="node">
+      <circle cx="80" cy="86" r="9" fill="#7EE0C3"/>
+      <text x="80" y="118" text-anchor="middle" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">salud</text>
+    </g>
+    <g class="node2">
+      <circle cx="230" cy="58" r="9" fill="#D4A574"/>
+      <text x="230" y="42" text-anchor="middle" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">vision</text>
+    </g>
+    <g class="node3">
+      <circle cx="380" cy="110" r="9" fill="#7EE0C3"/>
+      <text x="400" y="116" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">RAG</text>
+    </g>
+    <g class="node4">
+      <circle cx="250" cy="188" r="9" fill="#D4A574"/>
+      <text x="250" y="218" text-anchor="middle" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">ops</text>
+    </g>
+    <g class="node5">
+      <circle cx="100" cy="172" r="9" fill="#E8E2D4"/>
+      <text x="52" y="178" text-anchor="end" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">stack</text>
+    </g>
+  </g>
+
+  <g transform="translate(760,86)">
+    <rect x="0" y="0" width="390" height="248" rx="12" fill="#0B1018" stroke="#2A3544" stroke-width="1.4"/>
+    <rect x="0" y="0" width="390" height="36" rx="12" fill="#141C26"/>
+    <rect x="0" y="20" width="390" height="16" fill="#141C26"/>
+    <text x="18" y="24" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">~/taller</text>
+    <text x="24" y="72" fill="#7EE0C3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">$ whoami</text>
+    <text x="24" y="102" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">Juan Pablo Granados</text>
+    <text x="24" y="138" fill="#7EE0C3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">$ school</text>
+    <text x="24" y="168" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">ParqueSoft</text>
+    <text x="24" y="204" fill="#7EE0C3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">$ building</text>
+    <text x="24" y="234" fill="#E8E2D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">health &#183; vision &#183; RAG</text>
+    <rect class="cursor" x="268" y="220" width="10" height="16" fill="#7EE0C3"/>
+  </g>
+
+  <g clip-path="url(#frame)">
+    <rect x="10" y="366" width="1180" height="44" fill="#0B1018"/>
+    <line x1="10" y1="366" x2="1190" y2="366" stroke="#2A3544"/>
+  </g>
+  <text x="36" y="394" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.2">CHN01 salud</text>
+  <text x="250" y="394" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.2">CHN02 vision</text>
+  <text x="480" y="394" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.2">CHN03 RAG</text>
+  <text x="690" y="394" fill="#8A96A8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.2">CHN04 ops</text>
+  <text x="1164" y="394" text-anchor="end" fill="#7EE0C3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2">OPEN CHANNEL</text>
+</svg>
