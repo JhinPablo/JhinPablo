@@ -17,22 +17,22 @@
 </pre>
 
 <p align="center">
-  <a href="#senal"><code>[1] señal</code></a>
+  <a href="#01--señal--signal"><code>[1] señal</code></a>
   ·
-  <a href="#inventario"><code>[2] inventario</code></a>
+  <a href="#02--inventario-del-lab"><code>[2] inventario</code></a>
   ·
-  <a href="#mapa"><code>[3] mapa</code></a>
+  <a href="#03--mapa-de-intereses"><code>[3] mapa</code></a>
   ·
-  <a href="#telemetria"><code>[4] telemetría</code></a>
+  <a href="#04--telemetría"><code>[4] telemetría</code></a>
   ·
-  <a href="#canal"><code>[5] canal</code></a>
+  <a href="#05--canal"><code>[5] canal</code></a>
 </p>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="" width="100%">
 </p>
 
-<h2 id="senal">01 · Señal / Signal</h2>
+## 01 · Señal / Signal
 
 Estudiante de **desarrollo de software en ParqueSoft**. Armo herramientas que aguantan el día a día: ops, salud digital, visión por computador y RAG que corre en máquina propia.
 
@@ -57,7 +57,7 @@ Estudiante de **desarrollo de software en ParqueSoft**. Armo herramientas que ag
   </tr>
 </table>
 
-<h2 id="inventario">02 · Inventario del lab</h2>
+## 02 · Inventario del lab
 
 No es un dump de repos. Son las piezas que definen el taller.
 
@@ -124,7 +124,7 @@ No es un dump de repos. Son las piezas que definen el taller.
   </tr>
 </table>
 
-<h2 id="mapa">03 · Mapa de intereses</h2>
+## 03 · Mapa de intereses
 
 Cómo se conecta el taller cuando no está disfrazado de lista de skills:
 
@@ -149,7 +149,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Ollama-0B1016?style=flat-square&logoColor=7EE0C3" alt="Ollama">
 </p>
 
-<h2 id="telemetria">04 · Telemetría</h2>
+## 04 · Telemetría
 
 Números reales, paleta del taller. Sin ranking de videojuego.
 
@@ -162,7 +162,7 @@ Números reales, paleta del taller. Sin ranking de videojuego.
   <img src="https://streak-stats.demolab.com/?user=JhinPablo&hide_border=true&background=0B1016&ring=7EE0C3&fire=D4A574&currStreakLabel=D4A574&sideLabels=8A96A8&dates=8A96A8&currStreakNum=E8E2D4&sideNums=E8E2D4&stroke=2A3544" alt="Racha de contribuciones de GitHub de JhinPablo, mismos colores de consola.">
 </p>
 
-<h2 id="canal">05 · Canal</h2>
+## 05 · Canal
 
 <table>
   <tr>
