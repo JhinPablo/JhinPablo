@@ -10,11 +10,9 @@
   <img src="./assets/banner.svg" alt="Consola Taller Nocturno: monograma JP, constelación de temas (salud, visión, RAG, ops, stack) y terminal con el nombre Juan Pablo Granados Coral, ParqueSoft, ES/EN." width="100%">
 </div>
 
-<pre align="center">
-┌──────────────────────────────────┐
-│  JP · taller nocturno · es / en  │
-└──────────────────────────────────┘
-</pre>
+<p align="center">
+  <img src="./assets/stamp.svg" alt="Sello JP del taller nocturno, es / en" width="400">
+</p>
 
 <p align="center">
   <a href="#01--señal--signal"><code>[1] señal</code></a>
@@ -38,7 +36,7 @@ Estudiante de **desarrollo de software en ParqueSoft**. Armo herramientas que ag
 
 *Software development student at ParqueSoft. I build operational software, health-tech, computer vision, and local-first RAG. ES / EN.*
 
-<table>
+<table width="100%">
   <tr>
     <td width="33%" valign="top">
       <sub><code>SHIPPING</code></sub><br>
@@ -61,7 +59,7 @@ Estudiante de **desarrollo de software en ParqueSoft**. Armo herramientas que ag
 
 No es un dump de repos. Son las piezas que definen el taller.
 
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
       <sub><code>OPS · PRIVATE</code></sub><br>
@@ -129,6 +127,7 @@ No es un dump de repos. Son las piezas que definen el taller.
 Cómo se conecta el taller cuando no está disfrazado de lista de skills:
 
 ```mermaid
+%%{init: {'theme':'dark','themeVariables': {'primaryColor':'#0B1016','primaryTextColor':'#E8E2D4','primaryBorderColor':'#D4A574','lineColor':'#7EE0C3','secondaryColor':'#121821','tertiaryColor':'#0E141C','fontFamily':'monospace'}}}%%
 flowchart LR
   Salud[Health-tech / FHIR] --> Producto[Full-stack]
   Vision[ML / Vision / OCR] --> Producto
@@ -154,17 +153,17 @@ flowchart LR
 Números reales, paleta del taller. Sin ranking de videojuego.
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=JhinPablo&show_icons=true&hide_rank=true&hide_border=true&bg_color=0B1016&title_color=D4A574&icon_color=7EE0C3&text_color=C9D1D9&ring_color=7EE0C3" alt="Estadísticas de GitHub de JhinPablo: commits, PRs, issues y estrellas, tema tinta y cobre.">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=JhinPablo&layout=compact&hide_border=true&bg_color=0B1016&title_color=D4A574&text_color=C9D1D9&langs_count=6" alt="Lenguajes más usados en los repositorios públicos de JhinPablo.">
+  <img src="https://github-readme-stats.shion.dev/api?username=JhinPablo&show_icons=true&hide_rank=true&hide_border=true&bg_color=0B1016&title_color=D4A574&icon_color=7EE0C3&text_color=C9D1D9&ring_color=7EE0C3" alt="Estadísticas de GitHub de JhinPablo: commits, PRs, issues y estrellas, tema tinta y cobre." width="420">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=JhinPablo&layout=compact&hide_border=true&bg_color=0B1016&title_color=D4A574&text_color=C9D1D9&langs_count=6" alt="Lenguajes más usados en los repositorios públicos de JhinPablo." width="420">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=JhinPablo&hide_border=true&background=0B1016&ring=7EE0C3&fire=D4A574&currStreakLabel=D4A574&sideLabels=8A96A8&dates=8A96A8&currStreakNum=E8E2D4&sideNums=E8E2D4&stroke=2A3544" alt="Racha de contribuciones de GitHub de JhinPablo, mismos colores de consola.">
+  <img src="https://streak-stats.demolab.com/?user=JhinPablo&hide_border=true&background=0B1016&ring=7EE0C3&fire=D4A574&currStreakLabel=D4A574&sideLabels=8A96A8&dates=8A96A8&currStreakNum=E8E2D4&sideNums=E8E2D4&stroke=2A3544" alt="Racha de contribuciones de GitHub de JhinPablo, mismos colores de consola." width="495">
 </p>
 
 ## 05 · Canal
 
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
       <sub><code>ES</code></sub><br>

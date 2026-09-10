@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" role="img" aria-label="Separador de consola">
-  <rect width="1200" height="28" fill="none"/>
-  <line x1="0" y1="14" x2="1200" y2="14" stroke="#2A3544" stroke-width="1"/>
-  <rect x="560" y="6" width="80" height="16" rx="2" fill="#0B1018" stroke="#D4A574" stroke-opacity="0.55"/>
-  <text x="600" y="18" text-anchor="middle" fill="#D4A574" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="1.6">JP &#183; 0x4A50</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" role="img" aria-label="Separador de consola JP">
+  <rect width="1200" height="36" fill="none"/>
+  <line x1="0" y1="18" x2="1200" y2="18" stroke="#2A3544" stroke-width="1"/>
+  <circle cx="220" cy="18" r="2.2" fill="#7EE0C3" fill-opacity="0.7"/>
+  <circle cx="980" cy="18" r="2.2" fill="#7EE0C3" fill-opacity="0.7"/>
+
+  <rect x="516" y="6" width="168" height="24" rx="3" fill="#0B1016" stroke="#D4A574" stroke-opacity="0.65"/>
+  <!-- mini geometric JP -->
+  <g transform="translate(528,10)" fill="#D4A574">
+    <rect x="0" y="1" width="8" height="2.4" rx="0.4"/>
+    <rect x="5.6" y="1" width="2.4" height="10" rx="0.4"/>
+    <rect x="0" y="8.6" width="2.4" height="4" rx="0.4"/>
+    <rect x="0" y="10.2" width="7.4" height="2.4" rx="0.4"/>
+    <rect x="12" y="1" width="2.4" height="11.6" rx="0.4"/>
+    <rect x="12" y="1" width="8" height="2.4" rx="0.4"/>
+    <rect x="17.6" y="1" width="2.4" height="5.6" rx="0.4"/>
+    <rect x="12" y="5" width="8" height="2.4" rx="0.4"/>
+  </g>
+  <text x="618" y="22" text-anchor="middle" fill="#D4A574" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.8">0x4A50</text>
 </svg>
