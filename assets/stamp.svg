@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 96" role="img" aria-labelledby="stampTitle stampDesc">
+  <title id="stampTitle">Sello JP - Taller nocturno</title>
+  <desc id="stampDesc">Monograma geometrico JP, taller nocturno, espanol e ingles.</desc>
+  <defs>
+    <linearGradient id="copperStamp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3D09A"/>
+      <stop offset="100%" stop-color="#C4894A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="440" height="96" rx="12" fill="#0B1016" stroke="#2A3544" stroke-width="1.4"/>
+  <rect x="8" y="8" width="424" height="80" rx="8" fill="none" stroke="#D4A574" stroke-opacity="0.45" stroke-dasharray="3 5"/>
+
+  <g fill="none" stroke="#7EE0C3" stroke-width="1.2" stroke-opacity="0.7">
+    <path d="M18 26 H30 M18 26 V38"/>
+    <path d="M422 26 H410 M422 26 V38"/>
+    <path d="M18 70 H30 M18 70 V58"/>
+    <path d="M422 70 H410 M422 70 V58"/>
+  </g>
+
+  <g transform="translate(28,18)" fill="url(#copperStamp)">
+    <rect x="4" y="6" width="44" height="12" rx="2"/>
+    <rect x="36" y="6" width="12" height="50" rx="2"/>
+    <rect x="4" y="44" width="12" height="20" rx="2"/>
+    <rect x="4" y="52" width="40" height="12" rx="2"/>
+    <rect x="64" y="6" width="12" height="58" rx="2"/>
+    <rect x="64" y="6" width="42" height="12" rx="2"/>
+    <rect x="94" y="6" width="12" height="28" rx="2"/>
+    <rect x="64" y="26" width="42" height="12" rx="2"/>
+  </g>
+
+  <line x1="150" y1="24" x2="150" y2="72" stroke="#2A3544" stroke-width="1.2"/>
+
+  <text x="168" y="44" fill="#D4A574" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2.4">TALLER NOCTURNO</text>
+  <text x="168" y="68" fill="#7EE0C3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="1.6">JP &#183; es / en &#183; 0x4A50</text>
+</svg>
