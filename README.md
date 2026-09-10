@@ -11,9 +11,9 @@
 </div>
 
 <pre align="center">
-  ╻┏━┓     taller nocturno
-  ┃┣━┛     JP · JG
-  ╹╹       es / en · building
+┌──────────────────────────────────┐
+│  JP · taller nocturno · es / en  │
+└──────────────────────────────────┘
 </pre>
 
 <p align="center">
